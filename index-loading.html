@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Loading</title>
+
+    <script type="text/javascript">
+        toolbar=true;
+        var gui = require('nw.gui');
+        appName=gui.App.argv[0];
+        if (!appName) {
+            appName="monsub";
+        }
+        if (appName == "monsub") {
+            var winMain = gui.Window.open('index.html', {
+                "title": "Monitor Subscriber Parser",
+                "icon": "img/gnome-system-monitor.png",
+                "toolbar": toolbar,
+                "position": "center",
+                "frame": true,
+                "width": 1000,
+                "height": 800,
+                "min_width": 400,
+                "min_height": 200
+            });
+        }
+        
+        var winSplash = gui.Window.get();
+        if (!winMain) {
+            winSplash.close();
+        }else{
+            winSplash.focus();
+            winMain.on('loaded', function(){
+                setTimeout(function(){
+                    winMain.focus();
+                    winSplash.close();
+                },1000);
+            });
+        }
+        
+    </script>
+</head>
+<body class="" style="">
+    <div style="background: url(img/loading.gif) no-repeat center;height: 180px;text-align: center"><img></div>
+</body>

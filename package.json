@@ -1,0 +1,19 @@
+{
+  "name": "monsub",
+  "main": "index-loading.html",
+  "description": "Monitor Subscriber Parser",
+  "version": "0.1.1",
+  "keywords": [ "cisco", "monitor", "parser" ],
+  "window": {
+    "title": "Monitor Subscriber Parser",
+    "icon": "img/gnome-system-monitor.png",
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 200,
+    "height": 200
+  },
+  "webkit": {
+    "plugin": true
+  }
+}

@@ -1,0 +1,27 @@
+.x-column-header .x-form-trigger-wrap{
+    border: 0;
+    border-top: 1px solid #cecece;
+}
+.x-column-header{
+    border-top: 1px solid #cecece;
+}
+#outputPanel pre{
+    padding: 0px 10px;
+}
+#outputPanel span{
+    background-color: #FFFACD;
+}
+#outputPanel span.highlight{
+    background-color: #FFDEAD;
+}
+#outputPanel .x-panel-body{
+    overflow: auto;
+}
+.round-corners {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="1e584004-0878-4286-ab12-30852ac8fddd" kpf_version="5" name="monsub.komodoproject">
+<preference-set idref="1e584004-0878-4286-ab12-30852ac8fddd" id="project" preftype="project">
+  <string relative="path" id="import_dirname"></string>
+  <string relative="path" id="javascriptExtraPaths">js;C:/Users/m.efimenko/app/monsub/lib/ext-5.1.0/build</string>
+<preference-set id="languages">
+</preference-set>
+  <string relative="path" id="nodejsExtraPaths">node_modules</string>
+  <long id="tabWidth">4</long>
+</preference-set>
+</project>

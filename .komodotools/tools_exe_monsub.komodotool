@@ -1,0 +1,19 @@
+{
+  "insertOutput": 0, 
+  "parseRegex": "", 
+  "doNotOpenOutputWindow": 0, 
+  "icon": "file:///C:/Users/m.efimenko/app/node-webkit/monsub/img/gnome-system-monitor.png", 
+  "keyboard_shortcut": "Ctrl+F12", 
+  "name": "tools.exe monsub", 
+  "operateOnSelection": 0, 
+  "value": [
+    "tools.exe monsub"
+  ], 
+  "cwd": "C:\\Users\\m.efimenko\\app\\monsub", 
+  "version": "1.0.12", 
+  "env": "", 
+  "showParsedOutputList": 0, 
+  "type": "command", 
+  "parseOutput": 0, 
+  "runIn": "command-output-window"
+}
